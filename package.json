@@ -2,8 +2,10 @@
   "name": "nodejs-learning",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --env-file=.env server2.js"
   },
   "repository": {
     "type": "git",
